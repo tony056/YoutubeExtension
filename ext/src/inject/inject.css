@@ -1,0 +1,23 @@
+/**
+ * Place your custom CSS styles here.
+ **/
+#eye_tracker {
+    pointer-events: none;
+    position: absolute;
+}
+
+
+#eye_tracker.gesturetag {
+    display: block;
+    /* top: 50%;
+    right: 50%; */
+    position: absolute;
+    z-index: 10000000;
+    width: 60mm;
+    height: 60mm;
+    margin-top: -30mm;
+    margin-left: -30mm;
+    border-radius: 30mm;
+    background: rgba(10, 112, 215, 0.4);
+    -webkit-filter: blur(10px);
+}
